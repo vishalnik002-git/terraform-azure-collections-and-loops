@@ -1,0 +1,7 @@
+resource_groups_map = {
+  "rg-loops-eastus"    = "eastus"
+  "rg-loops-centralus" = "centralus"
+}
+
+storage_accounts_set = ["stloopseast01", "stloopscentral01"]
+storage_types_list   = ["hot", "cool"]
