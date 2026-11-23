@@ -3,8 +3,8 @@ variable "resource_groups_map" {
   type        = map(string)
   description = "A map where key is Resource Group name and value is Azure location."
   default = {
-    "rg-loops-eastus"   = "eastus"
-    "rg-loops-westus"   = "westus"
+    "rg-loops-eastus"    = "eastus"
+    "rg-loops-westus"    = "westus"
     "rg-loops-centralus" = "centralus"
   }
 }
